@@ -455,6 +455,48 @@ section {
 }
 
 /*--------------------------------------------------------------
+# New Skill CSS
+--------------------------------------------------------------*/
+
+.skill-item {
+  margin-bottom: 20px;
+  text-align: center; /* Center align the buttons */
+}
+
+.skill-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 2px solid #007bff;
+  border-radius: 30px;
+  background-color: transparent;
+  color: #007bff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 10px;
+}
+
+.skill-button i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.skill-button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.skills-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+/*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
 .resume .resume-title {
