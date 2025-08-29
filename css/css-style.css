@@ -1345,7 +1345,7 @@ section {
 
 .mg-button:hover {
   transform: scale(1.07);
-  background: linear-gradient(135deg, #2563eb, #7c3aed, #0ea5e9); /* brighter hover */
+  background: linear-gradient(135deg, #2563eb, #7c3aed, #0ea5e9); 
   box-shadow: 0 0 35px rgba(59, 130, 246, 0.7);
 }
 
